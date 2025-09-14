@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>🚴 Bike Dealership</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section class="banner">
+      <h1>Bike Bazzar</h1>
+      <h2.>Best Deals on Premium Bikes</h2>
+    </section>
+    <section id="catalog" class="product-section">
+      <h2>Available Bikes</h2>
+      <div class="products-grid" id="bikes-list"></div>
+    </section>
+  </main>
+
+  <div class="overlay" id="overlay"></div>
+
+  <div id="order-form">
+    <h3>Book Your Bike</h3>
+    <form id="orderDetails">
+      <input type="text" placeholder="Name" id="name" required><br><br>
+      <input type="text" placeholder="Address" id="address" required><br><br>
+      <input type="text" placeholder="Pincode" id="Pincode" required><br><br>
+      <input type="text" placeholder="Mobile Number" id="mobile" required><br><br>
+      <input type="text" placeholder="City" id="location" required><br><br>
+      <button type="submit">Confirm Booking</button>
+      <button type="button" onclick="closeForm()">Cancel</button>
+    </form>
+  </div>
+<footer>
+  <div class="footer-container">
+    <p>📞 Contact Us:</p>
+    <ul>
+      <li>Jaskaran Singh: <a href="tel:62834 52102">62834 52102</a></li>
+      <li>eisha: <a href="tel:89681 76576">89681 76576</a></li>
+    </ul>
+    <p>&copy; Bike Bazaar.</p>
+  </div>
+</footer>
+  <script src="js.js"></script>
+</body>
+</html>
